@@ -1,7 +1,7 @@
 <template>
-  <AppHeader></AppHeader>
+  <CAppHeader></CAppHeader>
   <slot></slot>
-  <AppFooter></AppFooter>
+  <CAppFooter></CAppFooter>
 </template>
 
 <script setup></script>

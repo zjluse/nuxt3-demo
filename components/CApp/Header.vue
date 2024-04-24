@@ -38,7 +38,7 @@
           <span>{{ $t("header.account") }}</span>
         </NuxtLinkLocale>
         <div class="app">APP</div>
-        <AppLanguage />
+        <CAppLanguage />
       </div>
     </div>
   </div>
