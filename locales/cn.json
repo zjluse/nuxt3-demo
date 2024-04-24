@@ -1,3 +1,12 @@
 {
-  "welcome": "欢迎👏"
+  "header": {
+    "index": "首页",
+    "minerHosting": "矿机托管",
+    "minerRental": "矿机租赁",
+    "miningDisplay": "算力展示",
+    "information": "行业资讯",
+    "account": "我的账户",
+    "guide": "新手指南",
+    "more": "更多"
+  }
 }

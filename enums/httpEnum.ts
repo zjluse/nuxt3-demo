@@ -8,3 +8,15 @@ export enum ResultEnum {
   FAIL = 101,
   TYPE = 'success',
 }
+
+// export const TransactionType = {
+//   1: '充币',
+//   2: '提币',
+// }
+
+// const transactionTypeArray = (obj: any) => {
+//   if (!Object.keys(obj).length) return [];
+//   return Object.keys(obj).map(key => {
+//     return { value: key, text: obj[key] };
+//   });
+// }

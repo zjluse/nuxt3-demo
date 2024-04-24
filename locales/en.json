@@ -1,3 +1,12 @@
 {
-  "welcome": "Welcome"
+  "header": {
+    "index": "Home",
+    "minerHosting": "Miner Hosting",
+    "minerRental": "Miner Rental",
+    "miningDisplay": "Mining Display",
+    "information": "Information",
+    "account": "account",
+    "guide": "Guide",
+    "more": "More"
+  }
 }

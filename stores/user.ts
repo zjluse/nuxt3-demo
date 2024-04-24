@@ -1,16 +1,12 @@
 export const useUserStote = defineStore('user', {
   state: () => ({
-    token: '0',
-    userInfo: {},
+    token: '',
   }),
 
   actions: {
     saveToken(value: string) {
       this.token = value;
     },
-    saveUser(value) {
-      this.userInfo = value;
-    }
   },
   // persist: true, // 默认cookie
   persist: {

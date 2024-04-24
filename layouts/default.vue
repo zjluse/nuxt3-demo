@@ -3,3 +3,5 @@
   <slot></slot>
   <AppFooter></AppFooter>
 </template>
+
+<script setup></script>

@@ -1,10 +1,11 @@
 {
   "version": "1.0.0",
-  "name": "nuxt-app",
+  "name": "jinxmine-pc",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build --dotenv .env.prod",
+    "build:test": "nuxt build --dotenv .env.test",
+    "build:prod": "nuxt build --dotenv .env.prod",
     "dev": "nuxt dev --dotenv .env.dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
@@ -12,9 +13,14 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
+    "@vueuse/nuxt": "^10.9.0",
+    "bignumber.js": "^9.1.2",
+    "crypto-js": "^4.2.0",
     "mitt": "^3.0.1",
+    "normalize.css": "^8.0.1",
     "nuxt": "^3.11.1",
     "pinia": "^2.1.7",
+    "qrcode": "^1.5.3",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
