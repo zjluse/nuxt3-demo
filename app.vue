@@ -8,7 +8,7 @@
 </template>
 
 <script setup>
-import AppFooter from "~/components/App/CAppFooter.vue";
+import AppFooter from "~/components/App/CappFooter.vue";
 
 // useHead({
 //   title: "Jinxmine",
